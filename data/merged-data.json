@@ -1,0 +1,4315 @@
+{
+    "health": [
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "sso.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "author.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "cambridgecae.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "data.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "ptea.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "pubdemo.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "prea.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "questioneditor.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "reports.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "ember.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "docs.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "items.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "www.staging.learnosity.com",
+            "checks": [
+                {
+                    "blog": {
+                        "healthy": true,
+                        "error": null
+                    }
+                },
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "acer.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": false,
+                        "error": "HTTP status code of 500; was expecting 200"
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "cambridgefce.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "cambridgeielts.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "api.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "central.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "wascsa.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "schemas.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "hmh.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "authorapi.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "pearsonassess.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "demos.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "hmhccas.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "win.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "assess.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "bcielts.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "responseeditor.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "questions.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "region": "au",
+            "type": "foo",
+            "name": "apierian.staging.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "prea.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "cambridgecae.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "cambridgeielts.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "api.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "items.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "apierian.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "sso.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "demos.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "www.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                },
+                {
+                    "techblog": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "ember.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "bostes-qa.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "responseeditor.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "bostes.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "wascsa-qa.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "questions.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "assess.scsa.wa.edu.au",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "data.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "author.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "eventbus.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "hmh.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "cambridgefce.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "authorapi.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "docs.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "reports.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "pubdemo.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "acer.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "central.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "assess.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "hmhccas.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "pearsonassess.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "win.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "bcielts.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "schemas.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "questioneditor.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        },
+        {
+            "environment": "production",
+            "region": "va",
+            "type": "foo",
+            "name": "events.learnosity.com",
+            "checks": [
+                {
+                    "web": {
+                        "healthy": true,
+                        "error": null
+                    }
+                }
+            ]
+        }
+    ],
+    "versions": [
+        {
+            "environment": "staging",
+            "host": "stg-apia1.dev.lninfra.net",
+            "apps": [
+                {
+                    "type": "api",
+                    "name": "items.staging.learnosity.com",
+                    "versions": [
+                        "v1.10.0",
+                        "v1.9.2",
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.0",
+                        "v1.7.0",
+                        "v1.6.0",
+                        "v1.5.0",
+                        "v1.4.1",
+                        "v1.4.0",
+                        "v1.3.0",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.1",
+                        "v1.1.0",
+                        "v1.0.2",
+                        "v1.0.1",
+                        "v1.0.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.3",
+                        "v0.10.2",
+                        "v0.10.1",
+                        "v0.10.0",
+                        "v0.9.2",
+                        "v0.9.1",
+                        "v0.8.1"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "questions.staging.learnosity.com",
+                    "versions": [
+                        "v2.27.0",
+                        "v2.26.0",
+                        "v2.25.0",
+                        "v2.24.0",
+                        "v2.23.0",
+                        "v2.22.0",
+                        "v2.21.0",
+                        "v2.20.1",
+                        "v2.20.0",
+                        "v2.19.1",
+                        "v2.19.0",
+                        "v2.18.1",
+                        "v2.18.0",
+                        "v2.17.1",
+                        "v2.17.0",
+                        "v2.16.1",
+                        "v2.16.0",
+                        "v2.15.2",
+                        "v2.15.1",
+                        "v2.15.0",
+                        "v2.14.1",
+                        "v2.14.0",
+                        "v2.13.5",
+                        "v2.13.4",
+                        "v2.13.3",
+                        "v2.13.2",
+                        "v2.13.1",
+                        "v2.13.0",
+                        "v2.12.2",
+                        "v2.12.1",
+                        "v2.12.0",
+                        "v2.11.4",
+                        "v2.11.3",
+                        "v2.11.2",
+                        "v2.11.1",
+                        "v2.11.0",
+                        "v2.10.0",
+                        "v2.9.1",
+                        "v2.8.2",
+                        "v2.8.1",
+                        "v2.8.0",
+                        "v2.7.3",
+                        "v2.7.2",
+                        "v2.6.1"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "reports.staging.learnosity.com",
+                    "versions": [
+                        "v0.19.1",
+                        "v0.19.0",
+                        "v0.18.1",
+                        "v0.18.0",
+                        "v0.17.0",
+                        "v0.16.0",
+                        "v0.15.0",
+                        "v0.14.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.0",
+                        "v0.9.1",
+                        "v0.8.0",
+                        "v0.7.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "responseeditor.staging.learnosity.com",
+                    "versions": [
+                        "v0.20.3",
+                        "v0.20.2",
+                        "v0.20.1",
+                        "v0.20.0",
+                        "v0.19.1",
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.1",
+                        "v0.16.0",
+                        "v0.15.2",
+                        "v0.15.1",
+                        "v0.15.0",
+                        "v0.14.2",
+                        "v0.14.1",
+                        "v0.14.0",
+                        "v0.13.2",
+                        "v0.13.1",
+                        "v0.13.0",
+                        "v0.12.1",
+                        "v0.12.0",
+                        "v0.11.1",
+                        "v0.11.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "sso.staging.learnosity.com",
+                    "versions": [
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.0",
+                        "v1.0.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "authorapi.staging.learnosity.com",
+                    "versions": [
+                        "v0.5.2",
+                        "v0.5.1",
+                        "v0.4.1",
+                        "v0.3.2"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "data.staging.learnosity.com",
+                    "versions": [
+                        "v0.26.0",
+                        "v0.25.1",
+                        "v0.25.0",
+                        "v0.24.0",
+                        "v0.23.3",
+                        "v0.23.2",
+                        "v0.23.0",
+                        "v0.22.0",
+                        "v0.21.0",
+                        "v0.20.1",
+                        "v0.20.0",
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.1",
+                        "v0.16.2",
+                        "v0.16.1",
+                        "v0.16.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "events.staging.learnosity.com",
+                    "versions": [
+                        "v0.1.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "api.staging.learnosity.com",
+                    "versions": [
+                        "v1.34.3",
+                        "v1.34.2",
+                        "v1.34.1",
+                        "v1.34.0",
+                        "v1.33.1",
+                        "v1.33.0",
+                        "v1.32.1",
+                        "v1.31.3",
+                        "v1.31.2",
+                        "v1.31.1",
+                        "v1.31.0",
+                        "v1.30.1",
+                        "v1.30.0",
+                        "v1.29.1",
+                        "v1.29.0",
+                        "v1.28.3",
+                        "v1.28.2",
+                        "v1.28.1",
+                        "v1.28.0",
+                        "v1.27.3",
+                        "v1.27.2",
+                        "v1.27.1",
+                        "v1.27.0",
+                        "v1.26.7",
+                        "v1.26.6",
+                        "v1.26.5",
+                        "v1.26.3",
+                        "v1.25.5",
+                        "v1.25.4",
+                        "v1.23.4",
+                        "v1.23.3",
+                        "v1.23.0",
+                        "v1.22.0",
+                        "v1.19.8",
+                        "v1.14.2",
+                        "v1.8.2"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "assess.staging.learnosity.com",
+                    "versions": [
+                        "v2.999.0",
+                        "v2.11.0",
+                        "v2.10.0",
+                        "v2.9.2",
+                        "v2.9.1",
+                        "v2.9.0",
+                        "v2.8.0",
+                        "v2.7.3",
+                        "v2.7.2",
+                        "v2.7.1",
+                        "v2.7.0",
+                        "v2.6.4",
+                        "v2.6.3",
+                        "v2.6.2",
+                        "v2.6.1",
+                        "v2.6.0",
+                        "v2.5.1",
+                        "v2.5.0",
+                        "v2.4.5",
+                        "v2.4.3",
+                        "v2.3.0",
+                        "v2.2.0",
+                        "v2.1.0",
+                        "v2.0.1",
+                        "v2.0.0",
+                        "v1.24.5",
+                        "v1.24.4",
+                        "v1.24.3",
+                        "v1.24.2",
+                        "v1.24.1",
+                        "v1.24.0",
+                        "v1.23.0",
+                        "v1.22.0",
+                        "v1.21.2",
+                        "v1.21.1",
+                        "v1.20.0",
+                        "v1.19.0",
+                        "v1.18.0",
+                        "v1.17.0",
+                        "v1.16.1",
+                        "v1.16.0",
+                        "v1.15.0",
+                        "v1.14.0",
+                        "v1.13.0",
+                        "v1.12.0",
+                        "v1.11.4",
+                        "v1.11.3",
+                        "v1.11.2",
+                        "v1.11.1",
+                        "v1.11.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "questioneditor.staging.learnosity.com",
+                    "versions": [
+                        "v1.12.1",
+                        "v1.12.0",
+                        "v1.11.1",
+                        "v1.11.0",
+                        "v1.10.3",
+                        "v1.10.2",
+                        "v1.10.1",
+                        "v1.10.0",
+                        "v1.9.3",
+                        "v1.9.2",
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.2",
+                        "v1.8.1",
+                        "v1.8.0",
+                        "v1.7.1",
+                        "v1.7.0",
+                        "v1.6.2",
+                        "v1.6.1",
+                        "v1.6.0",
+                        "v1.5.2",
+                        "v1.5.1",
+                        "v1.5.0",
+                        "v1.4.0",
+                        "v1.3.4",
+                        "v1.3.3",
+                        "v1.3.2",
+                        "v1.3.1",
+                        "v1.3.0",
+                        "v1.2.3",
+                        "v1.2.2",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.0",
+                        "v1.0.1",
+                        "v1.0.0"
+                    ]
+                }
+            ],
+            "region": "au",
+            "error": ""
+        },
+        {
+            "environment": "staging",
+            "host": "stg-apia2.dev.lninfra.net",
+            "apps": [
+                {
+                    "type": "api",
+                    "name": "authorapi.staging.learnosity.com",
+                    "versions": [
+                        "v0.5.2",
+                        "v0.5.1",
+                        "v0.4.1",
+                        "v0.3.2"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "data.staging.learnosity.com",
+                    "versions": [
+                        "v0.27.1",
+                        "v0.26.0",
+                        "v0.25.1",
+                        "v0.25.0",
+                        "v0.24.0",
+                        "v0.23.3",
+                        "v0.23.2",
+                        "v0.23.0",
+                        "v0.22.0",
+                        "v0.21.0",
+                        "v0.20.1",
+                        "v0.20.0",
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.1",
+                        "v0.16.2",
+                        "v0.16.1",
+                        "v0.16.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "events.staging.learnosity.com",
+                    "versions": [
+                        "v0.1.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "items.staging.learnosity.com",
+                    "versions": [
+                        "v1.10.0",
+                        "v1.9.2",
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.0",
+                        "v1.7.0",
+                        "v1.6.0",
+                        "v1.5.0",
+                        "v1.4.1",
+                        "v1.4.0",
+                        "v1.3.0",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.1",
+                        "v1.1.0",
+                        "v1.0.2",
+                        "v1.0.1",
+                        "v1.0.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.3",
+                        "v0.10.2",
+                        "v0.10.1",
+                        "v0.10.0",
+                        "v0.9.2",
+                        "v0.9.1",
+                        "v0.8.1"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "questioneditor.staging.learnosity.com",
+                    "versions": [
+                        "v1.12.1",
+                        "v1.12.0",
+                        "v1.11.1",
+                        "v1.11.0",
+                        "v1.10.3",
+                        "v1.10.2",
+                        "v1.10.1",
+                        "v1.10.0",
+                        "v1.9.3",
+                        "v1.9.2",
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.2",
+                        "v1.8.1",
+                        "v1.8.0",
+                        "v1.7.1",
+                        "v1.7.0",
+                        "v1.6.2",
+                        "v1.6.1",
+                        "v1.6.0",
+                        "v1.5.2",
+                        "v1.5.1",
+                        "v1.5.0",
+                        "v1.4.0",
+                        "v1.3.4",
+                        "v1.3.3",
+                        "v1.3.2",
+                        "v1.3.1",
+                        "v1.3.0",
+                        "v1.2.3",
+                        "v1.2.2",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.0",
+                        "v1.0.1",
+                        "v1.0.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "questions.staging.learnosity.com",
+                    "versions": [
+                        "v2.27.0",
+                        "v2.26.0",
+                        "v2.25.0",
+                        "v2.24.0",
+                        "v2.23.0",
+                        "v2.22.0",
+                        "v2.21.0",
+                        "v2.20.1",
+                        "v2.20.0",
+                        "v2.19.1",
+                        "v2.19.0",
+                        "v2.18.1",
+                        "v2.18.0",
+                        "v2.17.1",
+                        "v2.17.0",
+                        "v2.16.1",
+                        "v2.16.0",
+                        "v2.15.2",
+                        "v2.15.1",
+                        "v2.15.0",
+                        "v2.14.1",
+                        "v2.14.0",
+                        "v2.13.5",
+                        "v2.13.4",
+                        "v2.13.3",
+                        "v2.13.2",
+                        "v2.13.1",
+                        "v2.13.0",
+                        "v2.12.2",
+                        "v2.12.1",
+                        "v2.12.0",
+                        "v2.11.4",
+                        "v2.11.3",
+                        "v2.11.2",
+                        "v2.11.1",
+                        "v2.11.0",
+                        "v2.10.0",
+                        "v2.9.1",
+                        "v2.8.2",
+                        "v2.8.1",
+                        "v2.8.0",
+                        "v2.7.3",
+                        "v2.7.2",
+                        "v2.6.1"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "reports.staging.learnosity.com",
+                    "versions": [
+                        "v0.19.1",
+                        "v0.19.0",
+                        "v0.18.1",
+                        "v0.18.0",
+                        "v0.17.0",
+                        "v0.16.0",
+                        "v0.15.0",
+                        "v0.14.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.0",
+                        "v0.9.1",
+                        "v0.8.0",
+                        "v0.7.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "api.staging.learnosity.com",
+                    "versions": [
+                        "v1.34.3",
+                        "v1.34.2",
+                        "v1.34.1",
+                        "v1.34.0",
+                        "v1.33.1",
+                        "v1.33.0",
+                        "v1.32.1",
+                        "v1.31.3",
+                        "v1.31.2",
+                        "v1.31.1",
+                        "v1.31.0",
+                        "v1.30.1",
+                        "v1.30.0",
+                        "v1.29.1",
+                        "v1.29.0",
+                        "v1.28.3",
+                        "v1.28.2",
+                        "v1.28.1",
+                        "v1.28.0",
+                        "v1.27.3",
+                        "v1.27.2",
+                        "v1.27.1",
+                        "v1.27.0",
+                        "v1.26.7",
+                        "v1.26.6",
+                        "v1.26.5",
+                        "v1.26.3",
+                        "v1.25.5",
+                        "v1.25.4",
+                        "v1.23.4",
+                        "v1.23.3",
+                        "v1.23.0",
+                        "v1.22.0",
+                        "v1.19.8",
+                        "v1.14.2",
+                        "v1.8.2"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "responseeditor.staging.learnosity.com",
+                    "versions": [
+                        "v0.20.3",
+                        "v0.20.2",
+                        "v0.20.1",
+                        "v0.20.0",
+                        "v0.19.1",
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.1",
+                        "v0.16.0",
+                        "v0.15.2",
+                        "v0.15.1",
+                        "v0.15.0",
+                        "v0.14.2",
+                        "v0.14.1",
+                        "v0.14.0",
+                        "v0.13.2",
+                        "v0.13.1",
+                        "v0.13.0",
+                        "v0.12.1",
+                        "v0.12.0",
+                        "v0.11.1",
+                        "v0.11.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "sso.staging.learnosity.com",
+                    "versions": [
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.0",
+                        "v1.0.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "assess.staging.learnosity.com",
+                    "versions": [
+                        "v2.999.0",
+                        "v2.11.0",
+                        "v2.10.0",
+                        "v2.9.2",
+                        "v2.9.1",
+                        "v2.9.0",
+                        "v2.8.0",
+                        "v2.7.3",
+                        "v2.7.2",
+                        "v2.7.1",
+                        "v2.7.0",
+                        "v2.6.4",
+                        "v2.6.3",
+                        "v2.6.2",
+                        "v2.6.1",
+                        "v2.6.0",
+                        "v2.5.1",
+                        "v2.5.0",
+                        "v2.4.5",
+                        "v2.4.3",
+                        "v2.3.0",
+                        "v2.2.0",
+                        "v2.1.0",
+                        "v2.0.1",
+                        "v2.0.0",
+                        "v1.24.5",
+                        "v1.24.4",
+                        "v1.24.3",
+                        "v1.24.2",
+                        "v1.24.1",
+                        "v1.24.0",
+                        "v1.23.0",
+                        "v1.22.0",
+                        "v1.21.2",
+                        "v1.21.1",
+                        "v1.20.0",
+                        "v1.19.0",
+                        "v1.18.0",
+                        "v1.17.0",
+                        "v1.16.1",
+                        "v1.16.0",
+                        "v1.15.0",
+                        "v1.14.0",
+                        "v1.13.0",
+                        "v1.12.0",
+                        "v1.11.4",
+                        "v1.11.3",
+                        "v1.11.2",
+                        "v1.11.1",
+                        "v1.11.0"
+                    ]
+                }
+            ],
+            "region": "au",
+            "error": ""
+        },
+        {
+            "environment": "staging",
+            "host": "stg-apia3.dev.lninfra.net",
+            "apps": [
+                {
+                    "type": "api",
+                    "name": "authorapi.staging.learnosity.com",
+                    "versions": [
+                        "v0.5.2",
+                        "v0.5.1",
+                        "v0.4.1",
+                        "v0.3.2"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "data.staging.learnosity.com",
+                    "versions": [
+                        "v0.27.1",
+                        "v0.26.0",
+                        "v0.25.1",
+                        "v0.25.0",
+                        "v0.24.0",
+                        "v0.23.3",
+                        "v0.23.2",
+                        "v0.23.0",
+                        "v0.22.0",
+                        "v0.21.0",
+                        "v0.20.1",
+                        "v0.20.0",
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.1",
+                        "v0.16.2",
+                        "v0.16.1",
+                        "v0.16.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "events.staging.learnosity.com",
+                    "versions": [
+                        "v0.1.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "items.staging.learnosity.com",
+                    "versions": [
+                        "v1.10.0",
+                        "v1.9.2",
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.0",
+                        "v1.7.0",
+                        "v1.6.0",
+                        "v1.5.0",
+                        "v1.4.1",
+                        "v1.4.0",
+                        "v1.3.0",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.1",
+                        "v1.1.0",
+                        "v1.0.2",
+                        "v1.0.1",
+                        "v1.0.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.3",
+                        "v0.10.2",
+                        "v0.10.1",
+                        "v0.10.0",
+                        "v0.9.2",
+                        "v0.9.1",
+                        "v0.8.1"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "questions.staging.learnosity.com",
+                    "versions": [
+                        "v2.27.0",
+                        "v2.26.0",
+                        "v2.25.0",
+                        "v2.24.0",
+                        "v2.23.0",
+                        "v2.22.0",
+                        "v2.21.0",
+                        "v2.20.1",
+                        "v2.20.0",
+                        "v2.19.1",
+                        "v2.19.0",
+                        "v2.18.1",
+                        "v2.18.0",
+                        "v2.17.1",
+                        "v2.17.0",
+                        "v2.16.1",
+                        "v2.16.0",
+                        "v2.15.2",
+                        "v2.15.1",
+                        "v2.15.0",
+                        "v2.14.1",
+                        "v2.14.0",
+                        "v2.13.5",
+                        "v2.13.4",
+                        "v2.13.3",
+                        "v2.13.2",
+                        "v2.13.1",
+                        "v2.13.0",
+                        "v2.12.2",
+                        "v2.12.1",
+                        "v2.12.0",
+                        "v2.11.4",
+                        "v2.11.3",
+                        "v2.11.2",
+                        "v2.11.1",
+                        "v2.11.0",
+                        "v2.10.0",
+                        "v2.9.1",
+                        "v2.8.2",
+                        "v2.8.1",
+                        "v2.8.0",
+                        "v2.7.3",
+                        "v2.7.2",
+                        "v2.6.1"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "reports.staging.learnosity.com",
+                    "versions": [
+                        "v0.19.1",
+                        "v0.19.0",
+                        "v0.18.1",
+                        "v0.18.0",
+                        "v0.17.0",
+                        "v0.16.0",
+                        "v0.15.0",
+                        "v0.14.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.0",
+                        "v0.9.1",
+                        "v0.8.0",
+                        "v0.7.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "api.staging.learnosity.com",
+                    "versions": [
+                        "v1.34.3",
+                        "v1.34.2",
+                        "v1.34.1",
+                        "v1.34.0",
+                        "v1.33.1",
+                        "v1.33.0",
+                        "v1.32.1",
+                        "v1.31.3",
+                        "v1.31.2",
+                        "v1.31.1",
+                        "v1.31.0",
+                        "v1.30.1",
+                        "v1.30.0",
+                        "v1.29.1",
+                        "v1.29.0",
+                        "v1.28.3",
+                        "v1.28.2",
+                        "v1.28.1",
+                        "v1.28.0",
+                        "v1.27.3",
+                        "v1.27.2",
+                        "v1.27.1",
+                        "v1.27.0",
+                        "v1.26.7",
+                        "v1.26.6",
+                        "v1.26.5",
+                        "v1.26.3",
+                        "v1.25.5",
+                        "v1.25.4",
+                        "v1.23.4",
+                        "v1.23.3",
+                        "v1.23.0",
+                        "v1.22.0",
+                        "v1.19.8",
+                        "v1.14.2",
+                        "v1.8.2"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "assess.staging.learnosity.com",
+                    "versions": [
+                        "v2.999.0",
+                        "v2.11.0",
+                        "v2.10.0",
+                        "v2.9.2",
+                        "v2.9.1",
+                        "v2.9.0",
+                        "v2.8.0",
+                        "v2.7.3",
+                        "v2.7.2",
+                        "v2.7.1",
+                        "v2.7.0",
+                        "v2.6.4",
+                        "v2.6.3",
+                        "v2.6.2",
+                        "v2.6.1",
+                        "v2.6.0",
+                        "v2.5.1",
+                        "v2.5.0",
+                        "v2.4.5",
+                        "v2.4.3",
+                        "v2.3.0",
+                        "v2.2.0",
+                        "v2.1.0",
+                        "v2.0.1",
+                        "v2.0.0",
+                        "v1.24.5",
+                        "v1.24.4",
+                        "v1.24.3",
+                        "v1.24.2",
+                        "v1.24.1",
+                        "v1.24.0",
+                        "v1.23.0",
+                        "v1.22.0",
+                        "v1.21.2",
+                        "v1.21.1",
+                        "v1.20.0",
+                        "v1.19.0",
+                        "v1.18.0",
+                        "v1.17.0",
+                        "v1.16.1",
+                        "v1.16.0",
+                        "v1.15.0",
+                        "v1.14.0",
+                        "v1.13.0",
+                        "v1.12.0",
+                        "v1.11.4",
+                        "v1.11.3",
+                        "v1.11.2",
+                        "v1.11.1",
+                        "v1.11.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "responseeditor.staging.learnosity.com",
+                    "versions": [
+                        "v0.20.3",
+                        "v0.20.2",
+                        "v0.20.1",
+                        "v0.20.0",
+                        "v0.19.1",
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.1",
+                        "v0.16.0",
+                        "v0.15.2",
+                        "v0.15.1",
+                        "v0.15.0",
+                        "v0.14.2",
+                        "v0.14.1",
+                        "v0.14.0",
+                        "v0.13.2",
+                        "v0.13.1",
+                        "v0.13.0",
+                        "v0.12.1",
+                        "v0.12.0",
+                        "v0.11.1",
+                        "v0.11.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "sso.staging.learnosity.com",
+                    "versions": [
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.0",
+                        "v1.0.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "questioneditor.staging.learnosity.com",
+                    "versions": [
+                        "v1.12.1",
+                        "v1.12.0",
+                        "v1.11.1",
+                        "v1.11.0",
+                        "v1.10.3",
+                        "v1.10.2",
+                        "v1.10.1",
+                        "v1.10.0",
+                        "v1.9.3",
+                        "v1.9.2",
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.2",
+                        "v1.8.1",
+                        "v1.8.0",
+                        "v1.7.1",
+                        "v1.7.0",
+                        "v1.6.2",
+                        "v1.6.1",
+                        "v1.6.0",
+                        "v1.5.2",
+                        "v1.5.1",
+                        "v1.5.0",
+                        "v1.4.0",
+                        "v1.3.4",
+                        "v1.3.3",
+                        "v1.3.2",
+                        "v1.3.1",
+                        "v1.3.0",
+                        "v1.2.3",
+                        "v1.2.2",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.0",
+                        "v1.0.1",
+                        "v1.0.0"
+                    ]
+                }
+            ],
+            "region": "au",
+            "error": ""
+        },
+        {
+            "environment": "staging",
+            "host": "stg-apia4.dev.lninfra.net",
+            "apps": [
+                {
+                    "type": "api",
+                    "name": "data.staging.learnosity.com",
+                    "versions": [
+                        "v0.27.1",
+                        "v0.26.0",
+                        "v0.25.1",
+                        "v0.25.0",
+                        "v0.24.0",
+                        "v0.23.3",
+                        "v0.23.2",
+                        "v0.23.0",
+                        "v0.22.0",
+                        "v0.21.0",
+                        "v0.20.1",
+                        "v0.20.0",
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.1",
+                        "v0.16.2",
+                        "v0.16.1",
+                        "v0.16.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "items.staging.learnosity.com",
+                    "versions": [
+                        "v1.10.0",
+                        "v1.9.2",
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.0",
+                        "v1.7.0",
+                        "v1.6.0",
+                        "v1.5.0",
+                        "v1.4.1",
+                        "v1.4.0",
+                        "v1.3.0",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.1",
+                        "v1.1.0",
+                        "v1.0.2",
+                        "v1.0.1",
+                        "v1.0.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.3",
+                        "v0.10.2",
+                        "v0.10.1",
+                        "v0.10.0",
+                        "v0.9.2",
+                        "v0.9.1",
+                        "v0.8.1"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "questioneditor.staging.learnosity.com",
+                    "versions": [
+                        "v1.12.1",
+                        "v1.12.0",
+                        "v1.11.1",
+                        "v1.11.0",
+                        "v1.10.3",
+                        "v1.10.2",
+                        "v1.10.1",
+                        "v1.10.0",
+                        "v1.9.3",
+                        "v1.9.2",
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.2",
+                        "v1.8.1",
+                        "v1.8.0",
+                        "v1.7.1",
+                        "v1.7.0",
+                        "v1.6.2",
+                        "v1.6.1",
+                        "v1.6.0",
+                        "v1.5.2",
+                        "v1.5.1",
+                        "v1.5.0",
+                        "v1.4.0",
+                        "v1.3.4",
+                        "v1.3.3",
+                        "v1.3.2",
+                        "v1.3.1",
+                        "v1.3.0",
+                        "v1.2.3",
+                        "v1.2.2",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.0",
+                        "v1.0.1",
+                        "v1.0.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "questions.staging.learnosity.com",
+                    "versions": [
+                        "v2.27.0",
+                        "v2.26.0",
+                        "v2.25.0",
+                        "v2.24.0",
+                        "v2.23.0",
+                        "v2.22.0",
+                        "v2.21.0",
+                        "v2.20.1",
+                        "v2.20.0",
+                        "v2.19.1",
+                        "v2.19.0",
+                        "v2.18.1",
+                        "v2.18.0",
+                        "v2.17.1",
+                        "v2.17.0",
+                        "v2.16.1",
+                        "v2.16.0",
+                        "v2.15.2",
+                        "v2.15.1",
+                        "v2.15.0",
+                        "v2.14.1",
+                        "v2.14.0",
+                        "v2.13.5",
+                        "v2.13.4",
+                        "v2.13.3",
+                        "v2.13.2",
+                        "v2.13.1",
+                        "v2.13.0",
+                        "v2.12.2",
+                        "v2.12.1",
+                        "v2.12.0",
+                        "v2.11.4",
+                        "v2.11.3",
+                        "v2.11.2",
+                        "v2.11.1",
+                        "v2.11.0",
+                        "v2.10.0",
+                        "v2.9.1",
+                        "v2.8.2",
+                        "v2.8.1",
+                        "v2.8.0",
+                        "v2.7.3",
+                        "v2.7.2",
+                        "v2.6.1"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "reports.staging.learnosity.com",
+                    "versions": [
+                        "v0.19.1",
+                        "v0.19.0",
+                        "v0.18.1",
+                        "v0.18.0",
+                        "v0.17.0",
+                        "v0.16.0",
+                        "v0.15.0",
+                        "v0.14.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.0",
+                        "v0.9.1",
+                        "v0.8.0",
+                        "v0.7.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "responseeditor.staging.learnosity.com",
+                    "versions": [
+                        "v0.20.3",
+                        "v0.20.2",
+                        "v0.20.1",
+                        "v0.20.0",
+                        "v0.19.1",
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.1",
+                        "v0.16.0",
+                        "v0.15.2",
+                        "v0.15.1",
+                        "v0.15.0",
+                        "v0.14.2",
+                        "v0.14.1",
+                        "v0.14.0",
+                        "v0.13.2",
+                        "v0.13.1",
+                        "v0.13.0",
+                        "v0.12.1",
+                        "v0.12.0",
+                        "v0.11.1",
+                        "v0.11.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "assess.staging.learnosity.com",
+                    "versions": [
+                        "v2.999.0",
+                        "v2.11.0",
+                        "v2.10.0",
+                        "v2.9.2",
+                        "v2.9.1",
+                        "v2.9.0",
+                        "v2.8.0",
+                        "v2.7.3",
+                        "v2.7.2",
+                        "v2.7.1",
+                        "v2.7.0",
+                        "v2.6.4",
+                        "v2.6.3",
+                        "v2.6.2",
+                        "v2.6.1",
+                        "v2.6.0",
+                        "v2.5.1",
+                        "v2.5.0",
+                        "v2.4.5",
+                        "v2.4.3",
+                        "v2.3.0",
+                        "v2.2.0",
+                        "v2.1.0",
+                        "v2.0.1",
+                        "v2.0.0",
+                        "v1.24.5",
+                        "v1.24.4",
+                        "v1.24.3",
+                        "v1.24.2",
+                        "v1.24.1",
+                        "v1.24.0",
+                        "v1.23.0",
+                        "v1.22.0",
+                        "v1.21.2",
+                        "v1.21.1",
+                        "v1.20.0",
+                        "v1.19.0",
+                        "v1.18.0",
+                        "v1.17.0",
+                        "v1.16.1",
+                        "v1.16.0",
+                        "v1.15.0",
+                        "v1.14.0",
+                        "v1.13.0",
+                        "v1.12.0",
+                        "v1.11.4",
+                        "v1.11.3",
+                        "v1.11.2",
+                        "v1.11.1",
+                        "v1.11.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "authorapi.staging.learnosity.com",
+                    "versions": [
+                        "v0.5.2",
+                        "v0.5.1",
+                        "v0.4.1",
+                        "v0.3.2"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "sso.staging.learnosity.com",
+                    "versions": [
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.0",
+                        "v1.0.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "api.staging.learnosity.com",
+                    "versions": [
+                        "v1.34.3",
+                        "v1.34.2",
+                        "v1.34.1",
+                        "v1.34.0",
+                        "v1.33.1",
+                        "v1.33.0",
+                        "v1.32.1",
+                        "v1.31.3",
+                        "v1.31.2",
+                        "v1.31.1",
+                        "v1.31.0",
+                        "v1.30.1",
+                        "v1.30.0",
+                        "v1.29.1",
+                        "v1.29.0",
+                        "v1.28.3",
+                        "v1.28.2",
+                        "v1.28.1",
+                        "v1.28.0",
+                        "v1.27.3",
+                        "v1.27.2",
+                        "v1.27.1",
+                        "v1.27.0",
+                        "v1.26.7",
+                        "v1.26.6",
+                        "v1.26.5",
+                        "v1.26.3",
+                        "v1.25.5",
+                        "v1.25.4",
+                        "v1.23.4",
+                        "v1.23.3",
+                        "v1.23.0",
+                        "v1.22.0",
+                        "v1.19.8",
+                        "v1.14.2",
+                        "v1.8.2"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "events.staging.learnosity.com",
+                    "versions": [
+                        "v0.1.0"
+                    ]
+                }
+            ],
+            "region": "au",
+            "error": ""
+        },
+        {
+            "environment": "staging",
+            "host": "stg-apib1.dev.lninfra.net",
+            "apps": [
+                {
+                    "type": "api",
+                    "name": "eventbus.staging.learnosity.com",
+                    "versions": [
+                        "api-eventbus-staging-eventbus-v0.1.0.tar.gz"
+                    ]
+                }
+            ],
+            "region": "au",
+            "error": ""
+        },
+        {
+            "environment": "staging",
+            "host": "stg-dxta1.dev.lninfra.net",
+            "apps": [
+                {
+                    "type": "dexter",
+                    "name": "cambridgeielts.staging.learnosity.com",
+                    "versions": [
+                        "dexter-cambridgeielts-staging-develop.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "pearsonassess.learnosity.com",
+                    "versions": [
+                        "dexter-pearsonassess-staging-v4.45.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "prea.staging.learnosity.com",
+                    "versions": [
+                        "dexter-prea-staging-v4.45.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "pubdemo.staging.learnosity.com",
+                    "versions": [
+                        "dexter-pubdemo-staging-v4.33.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "acer.staging.learnosity.com",
+                    "versions": [
+                        "dexter_acer_acer-v4.22.0_20131125_1617.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "apierian.staging.learnosity.com",
+                    "versions": [
+                        "dexter-apierian-staging-v4.32.1.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "hmh.staging.learnosity.com",
+                    "versions": [
+                        "dexter_publisher_v4.8.14_20130121_1447.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "win.staging.learnosity.com",
+                    "versions": [
+                        "dexter-win-staging-master.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "cambridgecae.staging.learnosity.com",
+                    "versions": [
+                        "dexter_cambridge_cambridgecaefce-v4.7.8_20131113_1105.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "cambridgefce.staging.learnosity.com",
+                    "versions": [
+                        "dexter_cambridge_cambridgecaefce-v4.7.8_20131113_1105.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "preabeta.staging.learnosity.com",
+                    "versions": [
+                        "dexter-preabeta-staging-v4.45.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "hmhccas.staging.learnosity.com",
+                    "versions": [
+                        "dexter-hmhccas-staging-v4.39.1.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "ptea.staging.learnosity.com",
+                    "versions": [
+                        "dexter-ptea-staging-v4.42.0.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "wascsa.staging.learnosity.com",
+                    "versions": [
+                        "dexter-wascsa-staging-v4.41.0.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "bcielts.staging.learnosity.com",
+                    "versions": [
+                        "dexter-bcielts-staging-master.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "bostes.staging.learnosity.com",
+                    "versions": [
+                        "dexter-bostes-staging-v4.44.0.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "ember.staging.learnosity.com",
+                    "versions": [
+                        "dexter-ember-staging-v4.33.2.tar.gz"
+                    ]
+                }
+            ],
+            "region": "au",
+            "error": ""
+        },
+        {
+            "environment": "staging",
+            "host": "stg-web1.dev.lninfra.net",
+            "apps": [
+                {
+                    "type": "site",
+                    "name": "author.staging.learnosity.com",
+                    "versions": [
+                        "site-author-staging-v1.25.0.tar.gz"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "central.staging.learnosity.com",
+                    "versions": [
+                        "site-central-staging-v1.2.1.tar.gz"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "demos.staging.learnosity.com",
+                    "versions": [
+                        "develop"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "docs.staging.learnosity.com",
+                    "versions": [
+                        "develop"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "lynchconsulting.staging.learnosity.com",
+                    "versions": [
+                        "site-lynchconsulting.tar.gz"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "lyndonsharp.staging.learnosity.com",
+                    "versions": [
+                        "site-lyndonsharp.tar.gz"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "www.staging.learnosity.com",
+                    "versions": [
+                        "develop"
+                    ]
+                }
+            ],
+            "region": "au",
+            "error": ""
+        },
+        {
+            "environment": "staging",
+            "host": "stg-worker1.dev.lninfra.net",
+            "apps": [
+                {
+                    "type": "service",
+                    "name": "service-adaptiveprefetch",
+                    "versions": [
+                        "service-sync-staging-v1.19.1.tar.gz"
+                    ]
+                },
+                {
+                    "type": "service",
+                    "name": "service-psychometrics",
+                    "versions": [
+                        "service-psychometrics-staging-v0.3.0.tar.gz"
+                    ]
+                },
+                {
+                    "type": "service",
+                    "name": "service-scoring",
+                    "versions": [
+                        "service-scoring-staging-v0.2.0.tar.gz"
+                    ]
+                },
+                {
+                    "type": "service",
+                    "name": "syncservice",
+                    "versions": [
+                        "service-sync-staging-v1.19.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "service",
+                    "name": "backoffice_syncservice",
+                    "versions": [
+                        "service-sync-staging-v1.19.1.tar.gz"
+                    ]
+                },
+                {
+                    "type": "service",
+                    "name": "mediaservice",
+                    "versions": [
+                        "service-media-staging.tar.gz"
+                    ]
+                }
+            ],
+            "region": "au",
+            "error": ""
+        },
+        {
+            "environment": "staging",
+            "host": "stg-worker2.dev.lninfra.net",
+            "apps": [
+                {
+                    "type": "service",
+                    "name": "mediaservice",
+                    "versions": [
+                        "service-media-staging.tar.gz"
+                    ]
+                },
+                {
+                    "type": "service",
+                    "name": "service-adaptiveprefetch",
+                    "versions": [
+                        "service-sync-staging-v1.19.1.tar.gz"
+                    ]
+                },
+                {
+                    "type": "service",
+                    "name": "service-psychometrics",
+                    "versions": [
+                        "service-psychometrics-staging-v0.3.0.tar.gz"
+                    ]
+                },
+                {
+                    "type": "service",
+                    "name": "service-scoring",
+                    "versions": [
+                        "service-scoring-staging-v0.2.0-rc.1.tar.gz"
+                    ]
+                },
+                {
+                    "type": "service",
+                    "name": "syncservice",
+                    "versions": [
+                        "service-sync-staging-v1.19.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "service",
+                    "name": "backoffice_syncservice",
+                    "versions": [
+                        "service-sync-staging-v1.19.1.tar.gz"
+                    ]
+                }
+            ],
+            "region": "au",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-apia1.va.lninfra.net",
+            "apps": [
+                {
+                    "type": "api",
+                    "name": "events.learnosity.com",
+                    "versions": [
+                        "v0.1.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "questions.learnosity.com",
+                    "versions": [
+                        "v2.27.0",
+                        "v2.26.0",
+                        "v2.25.0",
+                        "v2.24.0",
+                        "v2.23.0",
+                        "v2.22.0",
+                        "v2.21.0",
+                        "v2.20.1",
+                        "v2.20.0",
+                        "v2.16.1",
+                        "v2.13.5",
+                        "v2.13.1",
+                        "v2.11.4"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "responseeditor.learnosity.com",
+                    "versions": [
+                        "v0.20.3",
+                        "v0.20.2",
+                        "v0.20.1",
+                        "v0.20.0",
+                        "v0.19.1",
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.1",
+                        "v0.16.0",
+                        "v0.15.2",
+                        "v0.15.1",
+                        "v0.15.0",
+                        "v0.14.3",
+                        "v0.14.2",
+                        "v0.14.1",
+                        "v0.14.0",
+                        "v0.13.2",
+                        "v0.13.1",
+                        "v0.13.0",
+                        "v0.12.1",
+                        "v0.12.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "sso.learnosity.com",
+                    "versions": [
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.0",
+                        "v1.0.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "assess.learnosity.com",
+                    "versions": [
+                        "v2.10.0",
+                        "v2.9.2",
+                        "v2.9.1",
+                        "v2.9.0",
+                        "v2.8.0",
+                        "v2.7.3",
+                        "v2.7.2",
+                        "v2.7.1",
+                        "v2.7.0",
+                        "v2.6.4",
+                        "v2.6.3",
+                        "v2.6.2",
+                        "v2.6.1",
+                        "v2.6.0",
+                        "v2.5.1",
+                        "v2.5.0",
+                        "v2.4.5",
+                        "v2.3.0",
+                        "v2.2.0",
+                        "v2.1.0",
+                        "v2.0.1",
+                        "v2.0.0",
+                        "v1.24.5",
+                        "v1.24.4",
+                        "v1.24.3",
+                        "v1.24.2",
+                        "v1.24.1",
+                        "v1.24.0",
+                        "v1.23.0",
+                        "v1.22.0",
+                        "v1.21.2",
+                        "v1.21.1",
+                        "v1.20.0",
+                        "v1.19.0",
+                        "v1.18.0",
+                        "v1.17.0",
+                        "v1.16.1",
+                        "v1.16.0",
+                        "v1.15.0",
+                        "v1.14.0",
+                        "v1.13.0",
+                        "v1.12.0",
+                        "v1.11.4",
+                        "v1.11.3",
+                        "v1.11.2",
+                        "v1.11.1",
+                        "v1.11.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "authorapi.learnosity.com",
+                    "versions": [
+                        "v0.5.2",
+                        "v0.5.1",
+                        "v0.4.1",
+                        "v0.3.2"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "data.learnosity.com",
+                    "versions": [
+                        "v0.26.0",
+                        "v0.25.1",
+                        "v0.25.0",
+                        "v0.24.0",
+                        "v0.23.3",
+                        "v0.23.2",
+                        "v0.22.0",
+                        "v0.21.0",
+                        "v0.20.1",
+                        "v0.20.0",
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.1",
+                        "v0.16.2",
+                        "v0.16.1",
+                        "v0.16.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "items.learnosity.com",
+                    "versions": [
+                        "v1.10.0",
+                        "v1.9.2",
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.0",
+                        "v1.7.0",
+                        "v1.6.0",
+                        "v1.5.0",
+                        "v1.4.1",
+                        "v1.4.0",
+                        "v1.3.0",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.1",
+                        "v1.1.0",
+                        "v1.0.2",
+                        "v1.0.1",
+                        "v1.0.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.3",
+                        "v0.10.2",
+                        "v0.10.1",
+                        "v0.10.0",
+                        "v0.9.2",
+                        "v0.9.1",
+                        "v0.8.1"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "questioneditor.learnosity.com",
+                    "versions": [
+                        "v1.12.1",
+                        "v1.12.0",
+                        "v1.11.1",
+                        "v1.11.0",
+                        "v1.10.3",
+                        "v1.10.2",
+                        "v1.10.1",
+                        "v1.10.0",
+                        "v1.9.3",
+                        "v1.9.2",
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.2",
+                        "v1.8.1",
+                        "v1.8.0",
+                        "v1.7.1",
+                        "v1.7.0",
+                        "v1.6.2",
+                        "v1.6.1",
+                        "v1.5.2",
+                        "v1.5.1",
+                        "v1.5.0",
+                        "v1.4.0",
+                        "v1.3.4",
+                        "v1.3.3",
+                        "v1.3.2",
+                        "v1.3.1",
+                        "v1.3.0",
+                        "v1.2.3",
+                        "v1.2.2",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.0",
+                        "v1.0.1",
+                        "v1.0.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "reports.learnosity.com",
+                    "versions": [
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.0",
+                        "v0.16.0",
+                        "v0.15.0",
+                        "v0.14.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.0",
+                        "v0.9.1",
+                        "v0.8.0",
+                        "v0.7.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "schemas.learnosity.com",
+                    "versions": [
+                        "v0.3.5",
+                        "v0.3.4",
+                        "v0.3.3",
+                        "v0.3.2",
+                        "v0.3.1",
+                        "v0.3.0",
+                        "v0.2.0",
+                        "v0.1.2",
+                        "v0.1.1"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "api.learnosity.com",
+                    "versions": [
+                        "v1.34.3",
+                        "v1.31.3",
+                        "v1.30.1",
+                        "v1.29.1",
+                        "v1.23.5",
+                        "v1.14.2",
+                        "v1.8.2"
+                    ]
+                }
+            ],
+            "region": "va",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-apia2.va.lninfra.net",
+            "apps": [
+                {
+                    "type": "api",
+                    "name": "reports.learnosity.com",
+                    "versions": [
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.0",
+                        "v0.16.0",
+                        "v0.15.0",
+                        "v0.14.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.0",
+                        "v0.9.1",
+                        "v0.8.0",
+                        "v0.7.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "sso.learnosity.com",
+                    "versions": [
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.0",
+                        "v1.0.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "questioneditor.learnosity.com",
+                    "versions": [
+                        "v1.12.1",
+                        "v1.12.0",
+                        "v1.11.1",
+                        "v1.11.0",
+                        "v1.10.3",
+                        "v1.10.2",
+                        "v1.10.1",
+                        "v1.10.0",
+                        "v1.9.3",
+                        "v1.9.2",
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.2",
+                        "v1.8.1",
+                        "v1.8.0",
+                        "v1.7.1",
+                        "v1.7.0",
+                        "v1.6.2",
+                        "v1.6.1",
+                        "v1.5.2",
+                        "v1.5.1",
+                        "v1.5.0",
+                        "v1.4.0",
+                        "v1.3.4",
+                        "v1.3.3",
+                        "v1.3.2",
+                        "v1.3.1",
+                        "v1.3.0",
+                        "v1.2.3",
+                        "v1.2.2",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.0",
+                        "v1.0.1",
+                        "v1.0.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "questions.learnosity.com",
+                    "versions": [
+                        "v2.27.0",
+                        "v2.26.0",
+                        "v2.25.0",
+                        "v2.24.0",
+                        "v2.23.0",
+                        "v2.22.0",
+                        "v2.21.0",
+                        "v2.20.1",
+                        "v2.20.0",
+                        "v2.16.1",
+                        "v2.13.5",
+                        "v2.13.1",
+                        "v2.11.4"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "api.learnosity.com",
+                    "versions": [
+                        "v1.34.3",
+                        "v1.31.3",
+                        "v1.30.1",
+                        "v1.29.1",
+                        "v1.23.5",
+                        "v1.14.2",
+                        "v1.8.2"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "assess.learnosity.com",
+                    "versions": [
+                        "v2.10.0",
+                        "v2.9.2",
+                        "v2.9.1",
+                        "v2.9.0",
+                        "v2.8.0",
+                        "v2.7.3",
+                        "v2.7.2",
+                        "v2.7.1",
+                        "v2.7.0",
+                        "v2.6.4",
+                        "v2.6.3",
+                        "v2.6.2",
+                        "v2.6.1",
+                        "v2.6.0",
+                        "v2.5.1",
+                        "v2.5.0",
+                        "v2.4.5",
+                        "v2.3.0",
+                        "v2.2.0",
+                        "v2.1.0",
+                        "v2.0.1",
+                        "v2.0.0",
+                        "v1.24.5",
+                        "v1.24.4",
+                        "v1.24.3",
+                        "v1.24.2",
+                        "v1.24.1",
+                        "v1.24.0",
+                        "v1.23.0",
+                        "v1.22.0",
+                        "v1.21.2",
+                        "v1.21.1",
+                        "v1.20.0",
+                        "v1.19.0",
+                        "v1.18.0",
+                        "v1.17.0",
+                        "v1.16.1",
+                        "v1.16.0",
+                        "v1.15.0",
+                        "v1.14.0",
+                        "v1.13.0",
+                        "v1.12.0",
+                        "v1.11.4",
+                        "v1.11.3",
+                        "v1.11.2",
+                        "v1.11.1",
+                        "v1.11.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "authorapi.learnosity.com",
+                    "versions": [
+                        "v0.5.2",
+                        "v0.5.1",
+                        "v0.4.1",
+                        "v0.3.2"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "data.learnosity.com",
+                    "versions": [
+                        "v0.27.1",
+                        "v0.26.0",
+                        "v0.25.1",
+                        "v0.25.0",
+                        "v0.24.0",
+                        "v0.23.3",
+                        "v0.23.2",
+                        "v0.22.0",
+                        "v0.21.0",
+                        "v0.20.1",
+                        "v0.20.0",
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.1",
+                        "v0.16.2",
+                        "v0.16.1",
+                        "v0.16.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "events.learnosity.com",
+                    "versions": [
+                        "v0.1.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "items.learnosity.com",
+                    "versions": [
+                        "v1.10.0",
+                        "v1.9.2",
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.0",
+                        "v1.7.0",
+                        "v1.6.0",
+                        "v1.5.0",
+                        "v1.4.1",
+                        "v1.4.0",
+                        "v1.3.0",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.1",
+                        "v1.1.0",
+                        "v1.0.2",
+                        "v1.0.1",
+                        "v1.0.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.3",
+                        "v0.10.2",
+                        "v0.10.1",
+                        "v0.10.0",
+                        "v0.9.2",
+                        "v0.9.1",
+                        "v0.8.1"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "responseeditor.learnosity.com",
+                    "versions": [
+                        "v0.20.3",
+                        "v0.20.2",
+                        "v0.20.1",
+                        "v0.20.0",
+                        "v0.19.1",
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.1",
+                        "v0.16.0",
+                        "v0.15.2",
+                        "v0.15.1",
+                        "v0.15.0",
+                        "v0.14.3",
+                        "v0.14.2",
+                        "v0.14.1",
+                        "v0.14.0",
+                        "v0.13.2",
+                        "v0.13.1",
+                        "v0.13.0",
+                        "v0.12.1",
+                        "v0.12.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "schemas.learnosity.com",
+                    "versions": [
+                        "v0.3.5",
+                        "v0.3.4",
+                        "v0.3.3",
+                        "v0.3.2",
+                        "v0.3.1",
+                        "v0.3.0",
+                        "v0.2.0",
+                        "v0.1.2",
+                        "v0.1.1"
+                    ]
+                }
+            ],
+            "region": "va",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-apia3.va.lninfra.net",
+            "apps": [
+                {
+                    "type": "api",
+                    "name": "authorapi.learnosity.com",
+                    "versions": [
+                        "v0.5.2",
+                        "v0.5.1",
+                        "v0.4.1",
+                        "v0.3.2"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "events.learnosity.com",
+                    "versions": [
+                        "v0.1.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "items.learnosity.com.bak",
+                    "versions": [
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.0",
+                        "v1.7.0",
+                        "v1.6.0",
+                        "v1.5.0",
+                        "v1.4.1",
+                        "v1.4.0",
+                        "v1.3.0",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.1",
+                        "v1.1.0",
+                        "v1.0.2",
+                        "v1.0.1",
+                        "v1.0.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.3",
+                        "v0.10.2",
+                        "v0.10.1",
+                        "v0.10.0",
+                        "v0.9.2",
+                        "v0.9.1",
+                        "v0.8.1"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "questioneditor.learnosity.com",
+                    "versions": [
+                        "v1.12.1",
+                        "v1.12.0",
+                        "v1.11.1",
+                        "v1.11.0",
+                        "v1.10.3",
+                        "v1.10.2",
+                        "v1.10.1",
+                        "v1.10.0",
+                        "v1.9.3",
+                        "v1.9.2",
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.2",
+                        "v1.8.1",
+                        "v1.8.0",
+                        "v1.7.1",
+                        "v1.7.0",
+                        "v1.6.2",
+                        "v1.6.1",
+                        "v1.5.2",
+                        "v1.5.1",
+                        "v1.5.0",
+                        "v1.4.0",
+                        "v1.3.4",
+                        "v1.3.3",
+                        "v1.3.2",
+                        "v1.3.1",
+                        "v1.3.0",
+                        "v1.2.3",
+                        "v1.2.2",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.0",
+                        "v1.0.1",
+                        "v1.0.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "schemas.learnosity.com",
+                    "versions": [
+                        "v0.3.5",
+                        "v0.3.4",
+                        "v0.3.3",
+                        "v0.3.2",
+                        "v0.3.1",
+                        "v0.3.0",
+                        "v0.2.0",
+                        "v0.1.2",
+                        "v0.1.1"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "reports.learnosity.com",
+                    "versions": [
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.0",
+                        "v0.16.0",
+                        "v0.15.0",
+                        "v0.14.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.0",
+                        "v0.9.1",
+                        "v0.8.0",
+                        "v0.7.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "responseeditor.learnosity.com",
+                    "versions": [
+                        "v0.20.3",
+                        "v0.20.2",
+                        "v0.20.1",
+                        "v0.20.0",
+                        "v0.19.1",
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.1",
+                        "v0.16.0",
+                        "v0.15.2",
+                        "v0.15.1",
+                        "v0.15.0",
+                        "v0.14.3",
+                        "v0.14.2",
+                        "v0.14.1",
+                        "v0.14.0",
+                        "v0.13.2",
+                        "v0.13.1",
+                        "v0.13.0",
+                        "v0.12.1",
+                        "v0.12.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "sso.learnosity.com",
+                    "versions": [
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.0",
+                        "v1.0.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "api.learnosity.com",
+                    "versions": [
+                        "v1.34.3",
+                        "v1.31.3",
+                        "v1.30.1",
+                        "v1.29.1",
+                        "v1.23.5",
+                        "v1.14.2",
+                        "v1.8.2"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "assess.learnosity.com",
+                    "versions": [
+                        "v2.10.0",
+                        "v2.9.2",
+                        "v2.9.1",
+                        "v2.9.0",
+                        "v2.8.0",
+                        "v2.7.3",
+                        "v2.7.2",
+                        "v2.7.1",
+                        "v2.7.0",
+                        "v2.6.4",
+                        "v2.6.3",
+                        "v2.6.2",
+                        "v2.6.1",
+                        "v2.6.0",
+                        "v2.5.1",
+                        "v2.5.0",
+                        "v2.4.5",
+                        "v2.3.0",
+                        "v2.2.0",
+                        "v2.1.0",
+                        "v2.0.1",
+                        "v2.0.0",
+                        "v1.24.5",
+                        "v1.24.4",
+                        "v1.24.3",
+                        "v1.24.2",
+                        "v1.24.1",
+                        "v1.24.0",
+                        "v1.23.0",
+                        "v1.22.0",
+                        "v1.21.2",
+                        "v1.21.1",
+                        "v1.20.0",
+                        "v1.19.0",
+                        "v1.18.0",
+                        "v1.17.0",
+                        "v1.16.1",
+                        "v1.16.0",
+                        "v1.15.0",
+                        "v1.14.0",
+                        "v1.13.0",
+                        "v1.12.0",
+                        "v1.11.4",
+                        "v1.11.3",
+                        "v1.11.2",
+                        "v1.11.1",
+                        "v1.11.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "data.learnosity.com",
+                    "versions": [
+                        "v0.27.1",
+                        "v0.26.0",
+                        "v0.25.1",
+                        "v0.25.0",
+                        "v0.24.0",
+                        "v0.23.3",
+                        "v0.23.2",
+                        "v0.22.0",
+                        "v0.21.0",
+                        "v0.20.1",
+                        "v0.20.0",
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.1",
+                        "v0.16.2",
+                        "v0.16.1",
+                        "v0.16.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "items.learnosity.com",
+                    "versions": [
+                        "v1.10.0",
+                        "v1.9.2",
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.0",
+                        "v1.7.0",
+                        "v1.6.0",
+                        "v1.5.0",
+                        "v1.4.1",
+                        "v1.4.0",
+                        "v1.3.0",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.1",
+                        "v1.1.0",
+                        "v1.0.2",
+                        "v1.0.1",
+                        "v1.0.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.3",
+                        "v0.10.2",
+                        "v0.10.1",
+                        "v0.10.0",
+                        "v0.9.2",
+                        "v0.9.1",
+                        "v0.8.1"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "questions.learnosity.com",
+                    "versions": [
+                        "v2.27.0",
+                        "v2.26.0",
+                        "v2.25.0",
+                        "v2.24.0",
+                        "v2.23.0",
+                        "v2.22.0",
+                        "v2.21.0",
+                        "v2.20.1",
+                        "v2.20.0",
+                        "v2.16.1",
+                        "v2.13.5",
+                        "v2.13.1",
+                        "v2.11.4"
+                    ]
+                }
+            ],
+            "region": "va",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-apia4.va.lninfra.net",
+            "apps": [
+                {
+                    "type": "api",
+                    "name": "items.learnosity.com",
+                    "versions": [
+                        "v1.10.0",
+                        "v1.9.2",
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.0",
+                        "v1.7.0",
+                        "v1.6.0",
+                        "v1.5.0",
+                        "v1.4.1",
+                        "v1.4.0",
+                        "v1.3.0",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.1",
+                        "v1.1.0",
+                        "v1.0.2",
+                        "v1.0.1",
+                        "v1.0.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.3",
+                        "v0.10.2",
+                        "v0.10.1",
+                        "v0.10.0",
+                        "v0.9.2",
+                        "v0.9.1",
+                        "v0.8.1"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "questioneditor.learnosity.com",
+                    "versions": [
+                        "v1.12.1",
+                        "v1.12.0",
+                        "v1.11.1",
+                        "v1.11.0",
+                        "v1.10.3",
+                        "v1.10.2",
+                        "v1.10.1",
+                        "v1.10.0",
+                        "v1.9.3",
+                        "v1.9.2",
+                        "v1.9.1",
+                        "v1.9.0",
+                        "v1.8.2",
+                        "v1.8.1",
+                        "v1.8.0",
+                        "v1.7.1",
+                        "v1.7.0",
+                        "v1.6.2",
+                        "v1.6.1",
+                        "v1.5.2",
+                        "v1.5.1",
+                        "v1.5.0",
+                        "v1.4.0",
+                        "v1.3.4",
+                        "v1.3.3",
+                        "v1.3.2",
+                        "v1.3.1",
+                        "v1.3.0",
+                        "v1.2.3",
+                        "v1.2.2",
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.0",
+                        "v1.0.1",
+                        "v1.0.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "questions.learnosity.com",
+                    "versions": [
+                        "v2.27.0",
+                        "v2.26.0",
+                        "v2.25.0",
+                        "v2.24.0",
+                        "v2.23.0",
+                        "v2.22.0",
+                        "v2.21.0",
+                        "v2.20.1",
+                        "v2.20.0",
+                        "v2.16.1",
+                        "v2.13.5",
+                        "v2.13.1",
+                        "v2.11.4"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "reports.learnosity.com",
+                    "versions": [
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.0",
+                        "v0.16.0",
+                        "v0.15.0",
+                        "v0.14.0",
+                        "v0.13.0",
+                        "v0.12.0",
+                        "v0.11.0",
+                        "v0.10.0",
+                        "v0.9.1",
+                        "v0.8.0",
+                        "v0.7.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "responseeditor.learnosity.com",
+                    "versions": [
+                        "v0.20.3",
+                        "v0.20.2",
+                        "v0.20.1",
+                        "v0.20.0",
+                        "v0.19.1",
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.1",
+                        "v0.16.0",
+                        "v0.15.2",
+                        "v0.15.1",
+                        "v0.15.0",
+                        "v0.14.3",
+                        "v0.14.2",
+                        "v0.14.1",
+                        "v0.14.0",
+                        "v0.13.2",
+                        "v0.13.1",
+                        "v0.13.0",
+                        "v0.12.1",
+                        "v0.12.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "schemas.learnosity.com",
+                    "versions": [
+                        "v0.3.5",
+                        "v0.3.4",
+                        "v0.3.3",
+                        "v0.3.2",
+                        "v0.3.1",
+                        "v0.3.0",
+                        "v0.2.0",
+                        "v0.1.2",
+                        "v0.1.1"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "assess.learnosity.com",
+                    "versions": [
+                        "v2.10.0",
+                        "v2.9.2",
+                        "v2.9.1",
+                        "v2.9.0",
+                        "v2.8.0",
+                        "v2.7.3",
+                        "v2.7.2",
+                        "v2.7.1",
+                        "v2.7.0",
+                        "v2.6.4",
+                        "v2.6.3",
+                        "v2.6.2",
+                        "v2.6.1",
+                        "v2.6.0",
+                        "v2.5.1",
+                        "v2.5.0",
+                        "v2.4.5",
+                        "v2.3.0",
+                        "v2.2.0",
+                        "v2.1.0",
+                        "v2.0.1",
+                        "v2.0.0",
+                        "v1.24.5",
+                        "v1.24.4",
+                        "v1.24.3",
+                        "v1.24.2",
+                        "v1.24.1",
+                        "v1.24.0",
+                        "v1.23.0",
+                        "v1.22.0",
+                        "v1.21.2",
+                        "v1.21.1",
+                        "v1.20.0",
+                        "v1.19.0",
+                        "v1.18.0",
+                        "v1.17.0",
+                        "v1.16.1",
+                        "v1.16.0",
+                        "v1.15.0",
+                        "v1.14.0",
+                        "v1.13.0",
+                        "v1.12.0",
+                        "v1.11.4",
+                        "v1.11.3",
+                        "v1.11.2",
+                        "v1.11.1",
+                        "v1.11.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "data.learnosity.com",
+                    "versions": [
+                        "v0.27.1",
+                        "v0.26.0",
+                        "v0.25.1",
+                        "v0.25.0",
+                        "v0.24.0",
+                        "v0.23.3",
+                        "v0.23.2",
+                        "v0.22.0",
+                        "v0.21.0",
+                        "v0.20.1",
+                        "v0.20.0",
+                        "v0.19.0",
+                        "v0.18.0",
+                        "v0.17.1",
+                        "v0.16.2",
+                        "v0.16.1",
+                        "v0.16.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "sso.learnosity.com",
+                    "versions": [
+                        "v1.2.1",
+                        "v1.2.0",
+                        "v1.1.0",
+                        "v1.0.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "events.learnosity.com",
+                    "versions": [
+                        "v0.1.0"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "api.learnosity.com",
+                    "versions": [
+                        "v1.34.3",
+                        "v1.31.3",
+                        "v1.30.1",
+                        "v1.29.1",
+                        "v1.23.5",
+                        "v1.14.2",
+                        "v1.8.2"
+                    ]
+                },
+                {
+                    "type": "api",
+                    "name": "authorapi.learnosity.com",
+                    "versions": [
+                        "v0.5.2",
+                        "v0.5.1",
+                        "v0.4.1",
+                        "v0.3.2"
+                    ]
+                }
+            ],
+            "region": "va",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-apib1.va.lninfra.net",
+            "apps": [
+                {
+                    "type": "api",
+                    "name": "eventbus.learnosity.com",
+                    "versions": [
+                        "api-eventbus-production-eventbus-v0.1.0.tar.gz"
+                    ]
+                }
+            ],
+            "region": "va",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-apib2.va.lninfra.net",
+            "apps": [
+                {
+                    "type": "api",
+                    "name": "eventbus.learnosity.com",
+                    "versions": [
+                        "api-eventbus-production-eventbus-v0.1.0.tar.gz"
+                    ]
+                }
+            ],
+            "region": "va",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-dxta1.va.lninfra.net",
+            "apps": [
+                {
+                    "type": "dexter",
+                    "name": "cainc.learnosity.com",
+                    "versions": [
+                        "dexter-ember-production-v4.33.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "cambridgeielts.learnosity.com",
+                    "versions": [
+                        "dexter-cambridgeielts-production-v4.27.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "ember.learnosity.com",
+                    "versions": [
+                        "dexter-ember-production-v4.33.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "hmhuat.learnosity.com",
+                    "versions": [
+                        "dexter_publisher_v4.8.14_20130121_1447.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "pubdemo.learnosity.com",
+                    "versions": [
+                        "dexter-pubdemo-production-v4.33.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "win.learnosity.com",
+                    "versions": [
+                        "dexter_win_v4.24.12_20130801_1241.tar.gz"
+                    ]
+                }
+            ],
+            "region": "va",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-dxta2.va.lninfra.net",
+            "apps": [
+                {
+                    "type": "dexter",
+                    "name": "cambridgeielts.learnosity.com",
+                    "versions": [
+                        "dexter-cambridgeielts-production-v4.27.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "ember.learnosity.com",
+                    "versions": [
+                        "dexter-ember-production-v4.33.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "hmhuat.learnosity.com",
+                    "versions": [
+                        "dexter_publisher_v4.8.14_20130121_1447.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "pubdemo.learnosity.com",
+                    "versions": [
+                        "dexter-pubdemo-production-v4.33.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "win.learnosity.com",
+                    "versions": [
+                        "dexter_win_v4.24.12_20130801_1241.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "cainc.learnosity.com",
+                    "versions": [
+                        "dexter-ember-production-v4.33.2.tar.gz"
+                    ]
+                }
+            ],
+            "region": "va",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-dxta3.va.lninfra.net",
+            "apps": [
+                {
+                    "type": "dexter",
+                    "name": "pubdemo.learnosity.com",
+                    "versions": [
+                        "dexter-pubdemo-production-v4.33.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "win.learnosity.com",
+                    "versions": [
+                        "dexter_win_v4.24.12_20130801_1241.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "cainc.learnosity.com",
+                    "versions": [
+                        "dexter-ember-production-v4.33.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "cambridgeielts.learnosity.com",
+                    "versions": [
+                        "dexter-cambridgeielts-production-v4.27.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "ember.learnosity.com",
+                    "versions": [
+                        "dexter-ember-production-v4.33.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "hmhuat.learnosity.com",
+                    "versions": [
+                        "dexter_publisher_v4.8.14_20130121_1447.tar.gz"
+                    ]
+                }
+            ],
+            "region": "va",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-dxta4.va.lninfra.net",
+            "apps": [
+                {
+                    "type": "dexter",
+                    "name": "hmhuat.learnosity.com",
+                    "versions": [
+                        "dexter_publisher_v4.8.14_20130121_1447.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "pubdemo.learnosity.com",
+                    "versions": [
+                        "dexter-pubdemo-production-v4.33.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "win.learnosity.com",
+                    "versions": [
+                        "dexter_win_v4.24.12_20130801_1241.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "cainc.learnosity.com",
+                    "versions": [
+                        "dexter-ember-production-v4.33.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "cambridgeielts.learnosity.com",
+                    "versions": [
+                        "dexter-cambridgeielts-production-v4.27.2.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "ember.learnosity.com",
+                    "versions": [
+                        "dexter-ember-production-v4.33.2.tar.gz"
+                    ]
+                }
+            ],
+            "region": "va",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-dxtb1.va.lninfra.net",
+            "apps": [
+                {
+                    "type": "dexter",
+                    "name": "apierian.learnosity.com",
+                    "versions": [
+                        "dexter-apierian-production-v4.32.1.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "bcielts.learnosity.com",
+                    "versions": [
+                        "dexter_bcielts_v4.24.12_20130801_1305.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "cambridgecae.learnosity.com",
+                    "versions": [
+                        "dexter_cambridge_cambridgecaefce-v4.7.9_20131114_1139.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "cambridgefce.learnosity.com",
+                    "versions": [
+                        "dexter_cambridge_cambridgecaefce-v4.7.9_20131114_1139.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "hmh.learnosity.com",
+                    "versions": [
+                        "dexter_publisher_v4.8.14_20130121_1447.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "hmhccas.learnosity.com",
+                    "versions": [
+                        "dexter-hmhccas-production-v4.39.1.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "ptea.learnosity.com",
+                    "versions": [
+                        "dexter-ptea-production-v4.42.0.tar.gz"
+                    ]
+                }
+            ],
+            "region": "va",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-dxtb2.va.lninfra.net",
+            "apps": [
+                {
+                    "type": "dexter",
+                    "name": "hmhccas.learnosity.com",
+                    "versions": [
+                        "dexter-hmhccas-production-v4.39.1.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "ptea.learnosity.com",
+                    "versions": [
+                        "dexter-ptea-production-v4.42.0.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "apierian.learnosity.com",
+                    "versions": [
+                        "dexter-apierian-production-v4.32.1.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "bcielts.learnosity.com",
+                    "versions": [
+                        "dexter_bcielts_v4.24.12_20130801_1305.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "cambridgecae.learnosity.com",
+                    "versions": [
+                        "dexter_cambridge_cambridgecaefce-v4.7.9_20131114_1139.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "cambridgefce.learnosity.com",
+                    "versions": [
+                        "dexter_cambridge_cambridgecaefce-v4.7.9_20131114_1139.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "hmh.learnosity.com",
+                    "versions": [
+                        "dexter_publisher_v4.8.14_20130121_1447.tar.gz"
+                    ]
+                }
+            ],
+            "region": "va",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-dxtb3.va.lninfra.net",
+            "apps": [
+                {
+                    "type": "dexter",
+                    "name": "apierian.learnosity.com",
+                    "versions": [
+                        "dexter-apierian-production-v4.32.1.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "bcielts.learnosity.com",
+                    "versions": [
+                        "dexter_bcielts_v4.24.12_20130801_1305.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "cambridgecae.learnosity.com",
+                    "versions": [
+                        "dexter_cambridge_cambridgecaefce-v4.7.9_20131114_1139.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "cambridgefce.learnosity.com",
+                    "versions": [
+                        "dexter_cambridge_cambridgecaefce-v4.7.9_20131114_1139.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "hmh.learnosity.com",
+                    "versions": [
+                        "dexter_publisher_v4.8.14_20130121_1447.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "hmhccas.learnosity.com",
+                    "versions": [
+                        "dexter-hmhccas-production-v4.39.1.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "ptea.learnosity.com",
+                    "versions": [
+                        "dexter-ptea-production-v4.42.0.tar.gz"
+                    ]
+                }
+            ],
+            "region": "va",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-dxtb4.va.lninfra.net",
+            "apps": [
+                {
+                    "type": "dexter",
+                    "name": "ptea.learnosity.com",
+                    "versions": [
+                        "dexter-ptea-production-v4.42.0.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "apierian.learnosity.com",
+                    "versions": [
+                        "dexter-apierian-production-v4.32.1.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "bcielts.learnosity.com",
+                    "versions": [
+                        "dexter_bcielts_v4.24.12_20130801_1305.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "cambridgecae.learnosity.com",
+                    "versions": [
+                        "dexter_cambridge_cambridgecaefce-v4.7.9_20131114_1139.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "cambridgefce.learnosity.com",
+                    "versions": [
+                        "dexter_cambridge_cambridgecaefce-v4.7.9_20131114_1139.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "hmh.learnosity.com",
+                    "versions": [
+                        "dexter_publisher_v4.8.14_20130121_1447.tar.gz"
+                    ]
+                },
+                {
+                    "type": "dexter",
+                    "name": "hmhccas.learnosity.com",
+                    "versions": [
+                        "dexter-hmhccas-production-v4.39.1.tar.gz"
+                    ]
+                }
+            ],
+            "region": "va",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-web1.va.lninfra.net",
+            "apps": [
+                {
+                    "type": "site",
+                    "name": "demos.learnosity.com",
+                    "versions": [
+                        "master"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "docs.learnosity.com",
+                    "versions": [
+                        "master"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "lynchconsulting.ie",
+                    "versions": [
+                        "site-lynchconsulting.tar.gz"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "www.learnosity.com",
+                    "versions": [
+                        "master"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "www.lyndonsharp.com",
+                    "versions": [
+                        "site-lyndonsharp.tar.gz"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "author.learnosity.com",
+                    "versions": [
+                        "site-author-production-v1.25.0.tar.gz"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "central.learnosity.com",
+                    "versions": [
+                        "site-central-production-v1.2.1.tar.gz"
+                    ]
+                }
+            ],
+            "region": "va",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-web2.va.lninfra.net",
+            "apps": [
+                {
+                    "type": "site",
+                    "name": "author.learnosity.com",
+                    "versions": [
+                        "site-author-production-v1.25.0.tar.gz"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "central.learnosity.com",
+                    "versions": [
+                        "site-central-production-v1.2.1.tar.gz"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "demos.learnosity.com",
+                    "versions": [
+                        "master"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "docs.learnosity.com",
+                    "versions": [
+                        "master"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "lynchconsulting.ie",
+                    "versions": [
+                        "site-lynchconsulting.tar.gz"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "life.learnosity.com",
+                    "versions": [
+                        "site-life-production-master-2013-12-23T13:42:34.tar.gz"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "www.learnosity.com",
+                    "versions": [
+                        "master"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "www.learnosity.com.bak",
+                    "versions": [
+                        "master"
+                    ]
+                },
+                {
+                    "type": "site",
+                    "name": "www.lyndonsharp.com",
+                    "versions": [
+                        "site-lyndonsharp.tar.gz"
+                    ]
+                }
+            ],
+            "region": "va",
+            "error": ""
+        },
+        {
+            "environment": "production",
+            "host": "prod-worker1.va.lninfra.net",
+            "apps": null,
+            "region": "va",
+            "error": "Get http://prod-worker1.va.lninfra.net/apps: dial tcp 10.0.2.108:80: connection refused"
+        },
+        {
+            "environment": "production",
+            "host": "prod-worker2.va.lninfra.net",
+            "apps": null,
+            "region": "va",
+            "error": "Get http://prod-worker2.va.lninfra.net/apps: dial tcp 10.0.5.189:80: connection refused"
+        }
+    ]
+}

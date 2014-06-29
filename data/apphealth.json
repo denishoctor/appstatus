@@ -1,0 +1,939 @@
+
+[
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "sso.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "author.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "cambridgecae.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "data.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "ptea.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "pubdemo.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "prea.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "questioneditor.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "reports.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "ember.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "docs.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "items.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "www.staging.learnosity.com", 
+        "checks": [
+            {
+                "blog": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }, 
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "acer.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": false, 
+                    "error": "HTTP status code of 500; was expecting 200"
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "cambridgefce.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "cambridgeielts.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "api.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "central.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "wascsa.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "schemas.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "hmh.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "authorapi.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "pearsonassess.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "demos.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "hmhccas.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "win.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "assess.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "bcielts.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "responseeditor.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "questions.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "staging", 
+        "region": "au", 
+        "type": "foo", 
+        "name": "apierian.staging.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "prea.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "cambridgecae.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "cambridgeielts.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "api.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "items.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "apierian.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "sso.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "demos.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "www.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }, 
+            {
+                "techblog": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "ember.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "bostes-qa.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "responseeditor.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "bostes.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "wascsa-qa.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "questions.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "assess.scsa.wa.edu.au", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "data.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "author.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "eventbus.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "hmh.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "cambridgefce.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "authorapi.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "docs.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "reports.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "pubdemo.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "acer.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "central.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "assess.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "hmhccas.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "pearsonassess.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "win.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "bcielts.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "schemas.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "questioneditor.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }, 
+    {
+        "environment": "production", 
+        "region": "va", 
+        "type": "foo", 
+        "name": "events.learnosity.com", 
+        "checks": [
+            {
+                "web": {
+                    "healthy": true, 
+                    "error": null
+                }
+            }
+        ]
+    }
+]

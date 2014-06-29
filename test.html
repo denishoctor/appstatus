@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Application Status Dashboard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Importing Web Component's Polyfill -->
+        <script src="bower_components/platform/platform.js"></script>
+
+        <!-- Importing Custom Elements -->
+        <link rel="import" href="bower_components/polymer/polymer.html">
+        <link rel="import" href="bower_components/core-ajax/core-ajax.html">
+    </head>
+    <body>
+        <polymer-element name="status-app">
+            <template>
+                <h1>{{name}}</h1>
+                <h2>{{urls}}</h2>
+            </template>
+            <script>
+                Polymer('status-app', {
+                    ready: function() {
+console.log('status-app ready');
+console.dir(this);
+                    },
+                    parse: function(event, detail, ajaxNode) {
+                        // parse data
+console.log(data);
+                        this.tableData = event.detail.response;
+                    },
+                    created: function() {
+                        "urls": [
+                            "data/apphealth.json", 
+                            "data/appversions.json"
+                        ],
+                        "name": "App Status Check"
+                    }
+                });
+            </script>
+        </polymer-element>
+
+        <script>
+            var settings = {
+                    "urls": [
+                        "data/apphealth.json", 
+                        "data/appversions.json"
+                    ],
+                    "name": "App Status Check"
+                },
+                statusApp = document.createElement("status-app");
+            
+            statusApp.setAttribute('urls', JSON.stringify(settings.urls));
+            statusApp.setAttribute('name', settings.name);
+            document.body.appendChild(statusApp);
+        </script>
+<!-- 
+        <status-app name="myTest" urls="test1,test2"></status-app>
+ -->
+    </body>
+</html>
