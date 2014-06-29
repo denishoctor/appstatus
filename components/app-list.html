@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Application Status Dashboard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Importing Web Component's Polyfill -->
+        <script src="../bower_components/platform/platform.js"></script>
+
+        <!-- Importing Custom Elements -->
+        <link rel="import" href="../bower_components/core-ajax/core-ajax.html">
+        <link rel="import" href="../bower_components/core-list/core-list.html">
+    </head>
+    <body>
+
+        <list-test></list-test>
+
+        <polymer-element name="list-test">
+            <template>
+                <core-ajax url="data/listtest.json" auto response="{{resp}}"></core-ajax>
+                <app-list data="{{resp}}"></app-list>
+            </template>
+        </polymer-element>
+
+
+        <polymer-element name="app-list" attributes="data">
+            <template>
+                <core-list id="list" data="{{data}}">
+                    <template>
+                        <div class="item">
+                            <span class="name">{{name}}</span>
+                            <div class="type">{{type}}</div>
+                        </div>
+                    </template>
+                </core-list>
+            </template>
+            <script>
+                Polymer('app-list', {
+                    ready: function() {
+                        // this.data = [
+                        //     {
+                        //         "name": "Denis",
+                        //         "type": "Male"
+                        //     },
+                        //     {
+                        //         "name": "Kristina",
+                        //         "type": "Female"
+                        //     }
+                        // ]
+                    }
+                });
+            </script>
+        </polymer-element>
+    </body>
+</html>

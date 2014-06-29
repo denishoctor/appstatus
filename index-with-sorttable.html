@@ -13,16 +13,30 @@
         <!-- Importing Custom Elements -->
         <link rel="import" href="bower_components/polymer/polymer.html">
         <link rel="import" href="bower_components/core-ajax/core-ajax.html">
-        <link rel="import" href="components/app-list.html">
+        <link rel="import" href="bower_components/sortable-table/sortable-table.html">
     </head>
     <body>
         <polymer-element name="status-app" attributes="name urls">
             <template>
                 <h1>{{name}}</h1>
+                <h2>{{urls}}</h2>
                 <template repeat="{{url in urls}}">
                     <core-ajax url="{{url}}" auto response="{{resp}}" on-core-response="{{parse}}"></core-ajax>
                 </template>
-                <app-list></app-list>
+                <sortable-table data="{{appsArray}}" rowTemplate="myRowTemplate">
+                    <template id="myRowTemplate">
+                        <td>{{record.row.name}}</td>
+<template repeat="{{item in record.row}}">
+    <td>{{item}}</td>
+</template>
+<template repeat="{{ foo, i in record.row }}">
+        {{ foo }}
+    <template repeat="{{ value, j in foo }}">
+        {{ i }}:{{ j }}. {{ value }}
+    </template>
+</template>
+                    </template>
+                </sortable-table>
             </template>
             <script>
                 Polymer('status-app', {
@@ -101,8 +115,6 @@ console.log('status-app ready');
                         });
 
                         this.appsArray = this.objectToArray(this.apps);
-// Why does this not work?
-// document.getElementById('app-rows').model = this.apps;
                     },
                     polishAndMergeAppName: function(name) {
 // items.bak - how is that getting output? Weird data?
@@ -158,8 +170,7 @@ console.log('status-app ready');
             document.body.appendChild(statusApp);
 
             window.addEventListener('polymer-ready', function() {
-window.myApp = document.querySelector('status-app');
-console.dir(myApp);
+console.dir(document.querySelector('status-app'));
             });
         </script>
     </body>
