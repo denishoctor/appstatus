@@ -25,22 +25,20 @@
                 <table>
                     <tr>
                         <th>App Name</th>
-                        <th>Environments</th>
                         <th>Type</th>
+                        <th>Environments</th>
                         <th>Meta</th>
                     </tr>
-                    <template repeat="{{item in appsArray}}">
+                    <template repeat="{{item in apps}}">
                         <tr>
                             <td>{{item.name}}</td>
+                            <td>{{item.type}}</td>
+                            <td>{{item.environments}}</td>
+                            <td>{{item.versions}}</td>
+                            <td>{{item.meta}}</td>
                         </tr>
                     </template>
                 </table>
-<div>before</div>
-<br/><br/><br/><br/>
-<div>after</div>
-                <template repeat="{{item in apps}}">
-                    <div>{{item.name}}</div>
-                </template>
             </template>
             <script>
                 Polymer('status-app', {
@@ -65,7 +63,6 @@ console.log('status-app ready');
 
                         if(this.count == 2) {
                             this.apps = this.merge(this.srvModel.apphealth, this.srvModel.appversions);
-                            this.appsArray = this.objectToArray(this.apps);
 console.log(this.apps);
                         }
                     },
@@ -121,8 +118,8 @@ console.log(this.apps);
                                 });
                             }
                         });
-
-                        return apps;
+// refactor to use array only, will that impact future functionality?
+                        return this.objectToArray(apps);
                     },
                     polishAndMergeAppName: function(name) {
 // items.bak - how is that getting output? Weird data?
