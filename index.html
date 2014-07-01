@@ -13,28 +13,47 @@
         <!-- Importing Custom Elements -->
         <link rel="import" href="bower_components/polymer/polymer.html">
         <link rel="import" href="bower_components/core-ajax/core-ajax.html">
-        <link rel="import" href="components/app-list.html">
     </head>
     <body>
         <polymer-element name="status-app" attributes="name urls">
             <template>
                 <h1>{{name}}</h1>
+                <h2>{{urls}}</h2>
                 <template repeat="{{url in urls}}">
-                    <core-ajax url="{{url}}" auto response="{{resp}}" on-core-response="{{parse}}"></core-ajax>
+                    <core-ajax url="{{url}}" auto handleAs="json" on-core-response="{{parse}}"></core-ajax>
                 </template>
-                <app-list></app-list>
+                <table>
+                    <tr>
+                        <th>App Name</th>
+                        <th>Environments</th>
+                        <th>Type</th>
+                        <th>Meta</th>
+                    </tr>
+                    <template repeat="{{item in appsArray}}">
+                        <tr>
+                            <td>{{item.name}}</td>
+                        </tr>
+                    </template>
+                </table>
+<div>before</div>
+<br/><br/><br/><br/>
+<div>after</div>
+                <template repeat="{{item in apps}}">
+                    <div>{{item.name}}</div>
+                </template>
             </template>
             <script>
                 Polymer('status-app', {
-                    created: function() {
                         // hints for complex attributes (Array, Funtion, Objects)
-                        this.urls = [];
-                        this.srvModel = {};
+                        urls: [],
+                        srvModel: {},
 // use ES6 map?
-                        this.apps = {};
-                        this.servers = {};
+                        apps: {},
+                        servers: {},
+                        appsArray: [],
                         // Add to guarantee defined access
-                        this.count = 0;
+                        count: 0,
+                    created: function() {
                     },
                     ready: function() {
 console.log('status-app ready');
@@ -45,14 +64,17 @@ console.log('status-app ready');
                         this.count++;
 
                         if(this.count == 2) {
-                            this.merge();
+                            this.apps = this.merge(this.srvModel.apphealth, this.srvModel.appversions);
+                            this.appsArray = this.objectToArray(this.apps);
+console.log(this.apps);
                         }
                     },
-                    merge: function() {
-                        var statusApp = this;
-// console.log(this.srvModel);
-                        this.srvModel.apphealth.forEach(function (appData) {
-                            var appKey = statusApp.polishAndMergeAppName(appData.name)
+                    merge: function(appHealth, appVersions) {
+                        var apps = {},
+                            that = this;
+
+                        appHealth.forEach(function (appData) {
+                            var appKey = that.polishAndMergeAppName(appData.name),
                                 app = {};
                             app.name = appKey;
                             app.type = appData.type;
@@ -66,18 +88,18 @@ console.log('status-app ready');
                             app.meta = {
                                 addedByHealthData: true
                             }
-                            if(statusApp.apps[app.name]) {
-                                statusApp.apps[app.name] = statusApp.deepMerge(statusApp.apps[app.name], app);
+                            if(apps[app.name]) {
+                                apps[app.name] = that.deepMerge(apps[app.name], app);
                             } else {
-                                statusApp.apps[app.name] = app;
+                                apps[app.name] = app;
                             }
                         });
 
-                        this.srvModel.appversions.forEach(function (server) {
-                            statusApp.servers[server.host] = server;
+                        appVersions.forEach(function (server) {
+                            that.servers[server.host] = server;
                             if(server.apps != null) {
                                 server.apps.forEach(function (appData) {
-                                    var appKey = statusApp.polishAndMergeAppName(appData.name)
+                                    var appKey = that.polishAndMergeAppName(appData.name)
                                         app = {};
                                     app.name = appKey;
                                     app.type = appData.type;
@@ -91,39 +113,37 @@ console.log('status-app ready');
                                     app.meta = {
                                         addedByServerVersionData: true
                                     }
-                                    if(statusApp.apps[app.name]) {
-                                        statusApp.apps[app.name] = statusApp.deepMerge(statusApp.apps[app.name], app);
+                                    if(apps[app.name]) {
+                                        apps[app.name] = that.deepMerge(apps[app.name], app);
                                     } else {
-                                        statusApp.apps[app.name] = app;
+                                        apps[app.name] = app;
                                     }
                                 });
                             }
                         });
 
-                        this.appsArray = this.objectToArray(this.apps);
-// Why does this not work?
-// document.getElementById('app-rows').model = this.apps;
+                        return apps;
                     },
                     polishAndMergeAppName: function(name) {
 // items.bak - how is that getting output? Weird data?
                         return name.replace(/.staging|.learnosity.com/gi, "");
                     },
-                    deepMerge: function(obj1,obj2) { // Our merge function
-                        var result = {}; // return result
+                    deepMerge: function(object1, object2) {
+                        var result = {};
 
-                        for(var i in obj1){      // for every property in obj1
-                            if((i in obj2) && (typeof obj1[i] === "object") && (i !== null)){
-                                result[i] = this.deepMerge(obj1[i],obj2[i]); // if it's an object, merge
-                            }else{
-                               result[i] = obj1[i]; // add it to result
+                        for(var i in object1) {
+                            if((i in object2) && (typeof object1[i] === "object") && (i !== null)) {
+                                result[i] = this.deepMerge(object1[i],object2[i]); // if it's an object, merge
+                            } else {
+                               result[i] = object1[i]; // add it to result
                             }
                         }
 
-                        for(i in obj2){ // add the remaining properties from object 2
-                            if(i in result){ //conflict
+                        for(i in object2) { // add the remaining properties from object 2
+                            if(i in result) { //conflict
                                 continue;
                             }
-                            result[i] = obj2[i];
+                            result[i] = object2[i];
                         }
 
                         return result;
@@ -132,7 +152,7 @@ console.log('status-app ready');
                         var array =[];
 
                         for(var i in object) {
-                            if (object.hasOwnProperty(i)){
+                            if (object.hasOwnProperty(i)) {
                                array.push(object[i]);
                             }
                         }
@@ -144,17 +164,12 @@ console.log('status-app ready');
         </polymer-element>
 
         <script>
-            var settings = {
-                    "urls": [
-                        "data/apphealth.json", 
-                        "data/appversions.json"
-                    ],
-                    "name": "App Status Check"
-                },
-                statusApp = document.createElement("status-app");
-            
-            statusApp.setAttribute('urls', JSON.stringify(settings.urls));
-            statusApp.setAttribute('name', settings.name);
+            var statusApp = document.createElement("status-app");
+            statusApp.name = "App Status Check";
+            statusApp.urls = [ 
+                "data/apphealth.json", 
+                "data/appversions.json"
+            ];
             document.body.appendChild(statusApp);
 
             window.addEventListener('polymer-ready', function() {
