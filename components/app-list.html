@@ -1,58 +1,166 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Application Status Dashboard</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- Importing Web Component's Polyfill -->
-        <script src="../bower_components/platform/platform.js"></script>
-
-        <!-- Importing Custom Elements -->
-        <link rel="import" href="../bower_components/core-ajax/core-ajax.html">
-        <link rel="import" href="../bower_components/core-list/core-list.html">
-    </head>
-    <body>
-
-        <list-test></list-test>
-
-        <polymer-element name="list-test">
-            <template>
-                <core-ajax url="data/listtest.json" auto response="{{resp}}"></core-ajax>
-                <app-list data="{{resp}}"></app-list>
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/core-ajax/core-ajax.html">
+<polymer-element name="app-list" attributes="urls">
+    <template>
+        <h1>List: {{urls}}</h1>
+        <template repeat="{{url in urls}}">
+            <core-ajax url="{{url}}" auto handleAs="json" on-core-response="{{parse}}"></core-ajax>
+        </template>
+        <table>
+            <tr>
+                <th>App Name</th>
+                <th>Type</th>
+                <th>Environments</th>
+                <th>Meta</th>
+            </tr>
+            <template repeat="{{item in apps}}">
+                <tr>
+                    <td>{{item.name}}</td>
+                    <td>{{item.type}}</td>
+                    <td>
+                        <template if="{{item.environments.production.error.length < 1}}">
+                            <div class="region">{{item.environments.production.region}}</div>
+                            <div class="server">{{item.environments.production.server}}</div>
+                            <div class="versions">
+                                <template repeat="{{version in item.environments.production.versions}}">
+                                    <span class="version {{version}}">{{version}}</span>
+                                </template>
+                            </div>
+                        </template>
+                    </td>
+                    <td>{{item.versions}}</td>
+                    <td>{{item.meta}}</td>
+                </tr>
             </template>
-        </polymer-element>
+        </table>
+    </template>
+    <script>
+        Polymer('app-list', {
+                // hints for complex attributes (Array, Funtion, Objects)
+                urls: [],
+                srvModel: {},
+// use ES6 map?
+                apps: {},
+                servers: {},
+                appsArray: [],
+                // Add to guarantee defined access
+                count: 0,
+            created: function() {
+            },
+            ready: function() {
+            },
+            parse: function(event, detail, ajaxNode) {
+                var dataName = ajaxNode.url.replace(/data\/|.json/gi, "");
+                this.srvModel[dataName] = event.detail.response;
+                this.count++;
 
+                if(this.count == 2) {
+                    this.apps = this.merge(this.srvModel.apphealth, this.srvModel.appversions);
+window.appsJSON = this.apps;
+console.log(appsJSON);
+                }
+            },
+            merge: function(appHealth, appVersions) {
+                var apps = {},
+                    that = this;
 
-        <polymer-element name="app-list" attributes="data">
-            <template>
-                <core-list id="list" data="{{data}}">
-                    <template>
-                        <div class="item">
-                            <span class="name">{{name}}</span>
-                            <div class="type">{{type}}</div>
-                        </div>
-                    </template>
-                </core-list>
-            </template>
-            <script>
-                Polymer('app-list', {
-                    ready: function() {
-                        // this.data = [
-                        //     {
-                        //         "name": "Denis",
-                        //         "type": "Male"
-                        //     },
-                        //     {
-                        //         "name": "Kristina",
-                        //         "type": "Female"
-                        //     }
-                        // ]
+                appHealth.forEach(function (appData) {
+                    var appKey = that.polishAndMergeAppName(appData.name),
+                        app = {};
+                    app.name = appKey;
+                    app.type = appData.type;
+                    app.environments = {};
+                    app.environments[appData.environment] = {
+                        region: appData.region,
+                        checks: appData.checks
+                    }
+// Expand metadata for health checks adding metadata for later behaviour hooks
+// Maybe helper function on app or higher would be better?
+                    app.meta = {
+                        addedByHealthData: true
+                    }
+                    if(apps[app.name]) {
+                        apps[app.name] = that.deepMerge(apps[app.name], app);
+                    } else {
+                        apps[app.name] = app;
                     }
                 });
-            </script>
-        </polymer-element>
-    </body>
-</html>
+
+                appVersions.forEach(function (server) {
+                    that.servers[server.host] = server;
+                    if(server.apps != null) {
+                        server.apps.forEach(function (appData) {
+                            var appKey = that.polishAndMergeAppName(appData.name)
+                                app = {};
+                            app.name = appKey;
+                            app.type = appData.type;
+                            app.environments = {};
+// check needed for inconsistent version data type
+console.dir(appData.versions)
+if(!Array.isArray(appData.versions)) {
+console.log("no an array atm!")
+    appData.versions = that.objectToArray(appData.versions);
+}
+                            app.environments[server.environment] = {
+                                versions: that.objectToArray(appData.versions),
+                                region: server.region,
+                                server: server.host,
+                                error: server.error
+                            }
+console.dir(app.environments[server.environment].versions)
+if(!Array.isArray(app.environments[server.environment].versions)) {
+console.log("no an array atm!")
+}
+
+                            app.meta = {
+                                addedByServerVersionData: true
+                            }
+                            if(apps[app.name]) {
+                                apps[app.name] = that.deepMerge(apps[app.name], app);
+                            } else {
+                                apps[app.name] = app;
+                            }
+                        });
+                    }
+                });
+// refactor to use array only, will that impact future functionality?
+                return this.objectToArray(apps);
+            },
+            polishAndMergeAppName: function(name) {
+// items.bak - how is that getting output? Weird data?
+                return name.replace(/.staging|.learnosity.com/gi, "");
+            },
+            deepMerge: function(object1, object2) {
+                var result = {};
+
+                for(var i in object1) {
+                    if((i in object2) && (typeof object1[i] === "object") && (i !== null)) {
+                        result[i] = this.deepMerge(object1[i],object2[i]); // if it's an object, merge
+                    } else {
+                       result[i] = object1[i]; // add it to result
+                    }
+                }
+
+                for(i in object2) { // add the remaining properties from object 2
+                    if(i in result) { //conflict
+                        continue;
+                    }
+                    result[i] = object2[i];
+                }
+
+                return result;
+            },
+            objectToArray: function (object) {
+                var array =[];
+
+                for(var i in object) {
+                    if (object.hasOwnProperty(i)) {
+                       array.push(object[i]);
+                    }
+                }
+
+                return array;
+            }
+        });
+    </script>
+</polymer-element>
